@@ -1,4 +1,4 @@
-package com.EvenOdd;
+package com.evenOdd;
 import java.util.Scanner;
 public class EvenOdd {
 	public static void main(String[] args) {
@@ -12,5 +12,6 @@ public class EvenOdd {
   else {
 	  System.out.println("Entered number is odd");
   }
+  sc.close();
 	}
 }

@@ -1,4 +1,4 @@
-package com.Pattern;
+package com.pattern;
  class StarRightAngle {
 	   public static void main(String[] args) {
 		int n=5;

@@ -6,6 +6,7 @@ public class ComparisonOperator {
 		System.out.println("Enter your number");
 		int num= sc.nextInt();
 		System.out.println(num>100);
+		sc.close();
 	}
 
 }

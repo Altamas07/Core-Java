@@ -5,6 +5,7 @@ public class DetectingInteger {
 		System.out.println("Enter your number");
 		Scanner sc=new Scanner(System.in);
 		System.out.println(sc.hasNextInt());
+		sc.close();
 	}
 
 }

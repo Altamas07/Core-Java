@@ -36,5 +36,6 @@ public class SimpleCalculator {
 		 default:
 			 System.out.println("Invalid Operator");
 	 }
+	 sc.close();
    }
 }

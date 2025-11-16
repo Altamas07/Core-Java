@@ -1,4 +1,4 @@
-package com.Encapsulation;
+package com.encapsulation;
 
 import java.util.Scanner;
 
@@ -62,5 +62,6 @@ public class Encapsulation {
 			
 			}	
 		} while (choice != 4);
+		sc.close();
 	}
 }

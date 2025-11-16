@@ -48,5 +48,6 @@ public static void main(String[] args) {
 		}
 		rev=rev/10;
 	}
+	sc.close();
 }
 }

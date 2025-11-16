@@ -1,4 +1,4 @@
-package com.EvenOdd;
+package com.evenOdd;
 
 public class EvenOdd1To100 {
 	public static void main(String[] args) {

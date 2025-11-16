@@ -1,4 +1,4 @@
-package com.CalculateThePercentage;
+package com.calculateThePercentage;
 import java.util.Scanner;
 public class CalculateThePercentage {
 	public static void main(String[] args) {
@@ -17,6 +17,7 @@ public class CalculateThePercentage {
        double totalMaximumMarks=500.0;
        double percentage=(totalMarksObtained/totalMaximumMarks)*100;
        System.out.println(totalMarksObtained);
-       System.out.println(percentage);		
+       System.out.println(percentage);	
+       sc.close();
 }
 }

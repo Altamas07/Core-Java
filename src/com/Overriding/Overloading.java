@@ -1,4 +1,4 @@
-package com.Overriding;
+package com.overriding;
      class Sum{
     	 int add(int a , int b) {
     		 return a+b;

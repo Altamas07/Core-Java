@@ -1,5 +1,6 @@
-package com.Exception;
-   class MyException extends Exception{
+package com.exception;
+   @SuppressWarnings("serial")
+   class MyException extends Exception{ 
 	   public MyException(String message) {
 		   super(message);
 	   }

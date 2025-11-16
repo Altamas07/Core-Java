@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 import java.util.Scanner;
 
@@ -27,6 +27,7 @@ public class MultipleExceptionHandling {
 	    	  System.out.println("You cannot divide any number by zero in java:");
 	      }
 	      System.out.println("Thanks for using this code");
+	      sc.close();
 }
 
 }

@@ -1,4 +1,4 @@
-package com.ControlStatement;
+package com.controlStatement;
 
 public class Numbers100to1 {
 	public static void main(String[] args) {

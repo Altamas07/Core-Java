@@ -1,4 +1,4 @@
-package com.ControlStatement;
+package com.controlStatement;
 
 public class EvenOdd {
 	public static void main(String[] args) {

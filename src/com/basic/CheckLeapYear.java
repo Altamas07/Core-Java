@@ -13,6 +13,7 @@ public class CheckLeapYear {
 		else {
 			System.out.println("not a leapyear");
 		}
+		sc.close();
 	}
 
 }

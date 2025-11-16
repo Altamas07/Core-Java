@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 import java.util.Scanner;
 
@@ -32,6 +32,7 @@ public class NestedTryCatch {
 		System.out.println(" thanks ");
 		
 	}
+		sc.close();
 }
 
 }

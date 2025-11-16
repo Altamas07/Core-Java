@@ -1,4 +1,4 @@
-package com.EvenOdd;
+package com.evenOdd;
 import java.util.Scanner;
 public class CheckPrimeNumbers {
 	public static void main(String[] args) {
@@ -18,6 +18,7 @@ public class CheckPrimeNumbers {
 		else {
 			System.out.println("This number is not a prime number");
 		}
+		sc.close();
 	}
 
 }

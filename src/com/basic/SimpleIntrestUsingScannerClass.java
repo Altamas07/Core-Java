@@ -20,5 +20,6 @@ public class SimpleIntrestUsingScannerClass {
 	
       float sI=(p*t*r)/100;
       System.out.println(sI);
+      sc.close();
 }
 }

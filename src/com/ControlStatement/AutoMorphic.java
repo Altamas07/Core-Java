@@ -1,14 +1,15 @@
-package com.ControlStatement;
+package com.controlStatement;
 import java.util.Scanner;
 public class AutoMorphic {
        public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your number");
+		// AutoMorphic numbers are whose square ends with the same number itself;
             int num=sc.nextInt();
             
             int square=num*num;
             
-            int temp=num;
+           
             
             boolean isAutoMorphic=true;
             
@@ -29,6 +30,7 @@ public class AutoMorphic {
             	System.out.println(num+"    is not a automorphic "); 
             	
             }
+            sc.close();
 	}
 
 }

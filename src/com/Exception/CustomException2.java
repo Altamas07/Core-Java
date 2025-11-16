@@ -1,7 +1,8 @@
-package com.Exception;
+package com.exception;
 
 //import javax.naming.InsufficientResourcesException;
 
+@SuppressWarnings("serial")
 class InsufficientBalance extends Exception{
 	public InsufficientBalance(String string) {
 		super(string);

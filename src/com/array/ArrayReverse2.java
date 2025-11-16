@@ -1,0 +1,30 @@
+package com.array;
+
+public class ArrayReverse2 {
+     public static void main(String[] args) {
+		
+    	 int[] arr= {23,54,34,76,45};
+    	 int end=arr.length-1;
+    	 int start=0;
+    	 
+    	 while(start<end) {
+    		 
+    		 int temp=arr[start];
+    		arr[start]=arr[end];
+    		 arr[end]=temp;
+    		 start++;
+    		 end--;
+    		 
+    		 
+    	 }
+    	 
+    	 System.out.println("Reversed array ::");
+    	 
+    	 for(int num:arr) {
+    		 
+    		 System.out.println(num);
+    	 }
+    	 
+    	 
+	}
+}

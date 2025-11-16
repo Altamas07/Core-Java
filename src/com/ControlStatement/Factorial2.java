@@ -1,4 +1,4 @@
-package com.ControlStatement;
+package com.controlStatement;
 import java.util.Scanner;
 public class Factorial2 {
 public static void main(String[] args) {
@@ -10,7 +10,10 @@ public static void main(String[] args) {
 		res=res*i;
 	}
 		System.out.println(res);
+		
+		sc.close();
 	}
+
 }
 
 

@@ -1,4 +1,4 @@
-package com.ControlStatement;
+package com.controlStatement;
 
 public class JumpStatement {
 	public static void main(String[] args) {               

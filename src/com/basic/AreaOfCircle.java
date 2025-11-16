@@ -9,5 +9,6 @@ public static void main(String[] args) {
 	double radius=sc.nextDouble();
 	double area=Math.PI*radius*radius;
 	System.out.println(area);
+	sc.close();
 }
 }

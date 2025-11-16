@@ -1,4 +1,4 @@
-package com.ControlStatement;
+package com.controlStatement;
 import java.util.Scanner;
 public class RverseNumber {
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class RverseNumber {
 		int num=sc.nextInt();
 		int sum=0;
 		int r;
-		int temp=num;
+		
 		while(num>0) {
 			r=(num%10);
 			sum=(sum*10)+r;
@@ -15,6 +15,7 @@ public class RverseNumber {
 		}
 		
 		System.out.println(sum);
+		sc.close();
 	}
 
 }

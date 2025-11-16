@@ -1,4 +1,4 @@
-package com.String;
+package com.string;
 
 public class CharacterAt {
    public static void main(String[] args) {

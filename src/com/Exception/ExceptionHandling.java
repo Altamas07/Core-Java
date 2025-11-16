@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 public class ExceptionHandling {
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class ExceptionHandling {
 		System.out.println(a/b);
 		
 	} catch (Exception e){
-			System.out.println(e);
+			System.out.println("cannot divide by zero " +e);
 			
 		System.out.println(a*b);
 		System.out.println("hello friends");

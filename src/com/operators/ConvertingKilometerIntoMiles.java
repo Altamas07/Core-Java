@@ -7,6 +7,7 @@ public class ConvertingKilometerIntoMiles {
     float km=sc.nextFloat();
 float miles=(km*5)/8;
 System.out.println(miles);
+sc.close();
 	}
 
 	}

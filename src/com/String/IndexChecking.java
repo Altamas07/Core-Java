@@ -1,4 +1,4 @@
-package com.String;
+package com.string;
 
 public class IndexChecking {
   public static void main(String[] args) {

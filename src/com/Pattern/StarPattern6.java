@@ -1,4 +1,4 @@
-package com.Pattern;
+package com.pattern;
 
 public class StarPattern6 {
 public static void main(String[] args) {

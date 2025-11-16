@@ -1,4 +1,4 @@
-package com.DataMasking;
+package com.dataMasking;
 
 	public class AccountNUmber {
 	    public static void main(String[] args) {

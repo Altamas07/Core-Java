@@ -1,4 +1,4 @@
-package com.ControlStatement;
+package com.controlStatement;
 
 public class Factorial {
 	static int factorial(int n) {
@@ -9,6 +9,6 @@ public class Factorial {
 	}
 	public static void main(String[] args) {
 		int n=5;
-		System.out.println(factorial(5));
+		System.out.println(factorial(n));
 	}
 };

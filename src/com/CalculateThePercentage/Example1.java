@@ -1,4 +1,4 @@
-package com.CalculateThePercentage;
+package com.calculateThePercentage;
 
 public class Example1 {
 

@@ -1,4 +1,4 @@
-package com.Overriding;
+package com.overriding;
 
     class GrandFather{
     	void eat() {

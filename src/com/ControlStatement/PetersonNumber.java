@@ -1,6 +1,7 @@
-package com.ControlStatement;
+package com.controlStatement;
 import java.util.Scanner;
 public class PetersonNumber {
+	// a number factorial of itself is called PetersonNumber or KrishnaMurthy number;
 	static int factorial(int n) {
 		 
 		 int fact=1;
@@ -28,5 +29,6 @@ public class PetersonNumber {
      	   else {
      		   System.out.println(num + " : is not a Peterson number");
      	   }
+     	   sc.close();
 	}
 }

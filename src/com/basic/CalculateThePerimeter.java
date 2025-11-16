@@ -11,6 +11,7 @@ public class CalculateThePerimeter {
 		int b=sc.nextInt();
 		int area=2*(l+b);
 		System.out.println(area);
+		sc.close();
 	}
 
 }

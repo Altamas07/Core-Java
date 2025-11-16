@@ -1,4 +1,4 @@
-package com.EvenOdd;
+package com.evenOdd;
 
 public class PrimeNumbers {
 	public static void main(String[] args) {

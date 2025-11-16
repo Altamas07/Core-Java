@@ -1,4 +1,4 @@
-package com.Encapsulation;
+package com.encapsulation;
 
 
  class BankingApp21 {

@@ -1,4 +1,4 @@
-package com.ControlStatement;
+package com.controlStatement;
 
 public class FindTheLargestNumber {
 	public static void main(String[] args) {
