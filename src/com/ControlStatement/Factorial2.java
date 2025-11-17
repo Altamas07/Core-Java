@@ -2,6 +2,7 @@ package com.controlStatement;
 import java.util.Scanner;
 public class Factorial2 {
 public static void main(String[] args) {
+	
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter your number");
 	int num=sc.nextInt();
@@ -11,8 +12,11 @@ public static void main(String[] args) {
 	}
 		System.out.println(res);
 		
+		
+		
 		sc.close();
 	}
+
 
 }
 

@@ -37,7 +37,7 @@ public class FebonacciSeries {
 		}
 		
 		
-		
+		sc.close();
 	}
 
 }
