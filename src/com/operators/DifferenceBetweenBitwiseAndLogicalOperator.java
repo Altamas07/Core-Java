@@ -28,3 +28,5 @@ public class DifferenceBetweenBitwiseAndLogicalOperator {
 		}
 	}
 }
+// here both &&,|| and &,| are giving same output but logical && and logical || is faster 
+// than bitwise operator 
