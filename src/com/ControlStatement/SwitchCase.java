@@ -22,6 +22,8 @@ public class SwitchCase {
 		case 10+20+30:
 			
 			System.out.println(60);
+		    
+		break;
 		
 		default :
 			
