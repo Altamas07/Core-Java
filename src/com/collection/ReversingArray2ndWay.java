@@ -18,7 +18,7 @@ public class ReversingArray2ndWay {
 		
 		ArrayList<Integer>arrayList2=new ArrayList<Integer>();
 		
-		for(int i=0;i<arrayList.size();i++) {
+		for(int i=arrayList.size()-1; i>=0 ;i--) {
 			
 			arrayList2.add(arrayList.get(i));
 			

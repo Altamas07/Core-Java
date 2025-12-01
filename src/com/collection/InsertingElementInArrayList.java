@@ -18,10 +18,10 @@ public class InsertingElementInArrayList {
 		
 		System.out.println(arrayList);
 		
-		arrayList.add(3, 45);
-		arrayList.add(2, 45);
-		arrayList.add(1, 45);
 		arrayList.add(0, 45);
+		arrayList.add(1, 45);
+		arrayList.add(2, 45);
+		arrayList.add(3, 45);
 		arrayList.add(4, 45);
 		
 		System.out.println("After  Inserting ::");
