@@ -6,6 +6,14 @@ class BankingApp {
 	private double balance;
 	public double getBalance() {
 		return balance;
+		
+	}
+	
+	public void setBalance(double balance) {
+		
+		this.balance=balance;
+		
+		
 	}
 
 	public void deposit(double amount) {
@@ -29,15 +37,23 @@ class BankingApp {
 }
 public class Encapsulation {
 	public static void main(String[] args) {
+		
+		
 		Scanner sc = new Scanner(System.in);
 		BankingApp account = new BankingApp();
+		
+		account.setBalance(5000);
+		System.out.println("Enter your choice ");
 		int choice;
+	
+		
 		do {
 			System.out.println("---/n + Banking menu");
 			System.out.println("1- Deposit");
 			System.out.println("2- Withdraw");
 			System.out.println("3- Check Balance");
 			System.out.println("4- Exit Menu");
+			
 			choice = sc.nextInt();
 			switch (choice) {
 			case 1:

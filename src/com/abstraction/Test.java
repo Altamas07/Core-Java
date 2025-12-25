@@ -8,6 +8,7 @@ abstract class Abs{
 		System.out.println("xfcbjkl,");
 	}
 }
+  
 
 class Demo1{
 	

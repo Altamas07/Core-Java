@@ -26,7 +26,8 @@ public static void main(String[] args) {
       System.out.println(str.indexOf("K"));
       System.out.println(str.lastIndexOf("A"));
       System.out.println(str.trim());
-      System.out.println(str.replace("khan", "Khan"));
+     System.out.println(str.replace("khan", "Khan"));
+  
       sc.close();
 	}
 }

@@ -2,7 +2,8 @@ package com.exception;
    @SuppressWarnings("serial")
    class MyException extends Exception{ 
 	   public MyException(String message) {
-		   super(message);
+		   super(message); // here we take super keyword to make our description 
+		                  //  available to default exception handler 
 	   }
    }
    

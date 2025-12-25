@@ -79,9 +79,9 @@ abstract  class Bank{
 
    class SBI  extends Bank implements AtmService{
 
+
 	public SBI(Account account) {
 		super(account);
-		
 		
 	}
 
