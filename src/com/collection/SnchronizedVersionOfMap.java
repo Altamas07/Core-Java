@@ -11,5 +11,7 @@ public class SnchronizedVersionOfMap {
 		HashMap<Integer, String> hm=new HashMap<Integer, String>();
 		
 		Map<Integer, String> m=Collections.synchronizedMap(hm);
+		m.put(34, "Asdfghjkl");
+		
 	}
 }

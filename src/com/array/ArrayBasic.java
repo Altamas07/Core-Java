@@ -15,14 +15,15 @@ public class ArrayBasic {
 		  arr[3]=54;
 		  arr[4]=71;
 		  
-		  
+		 
 		  
 		  // initialization and declaration 
 		//  trying to catch exception//
 		  try {
 		  int[] a= { 545,344,76,324,675,900};
 		  System.out.println(a[a.length-1]);
-	}catch(Exception e) {
+	}
+		  catch(Exception e) {
 		System.out.println("Could not found the array index: "+e);
 	}
 		  System.out.println(arr[4]);

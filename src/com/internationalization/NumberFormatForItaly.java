@@ -1,0 +1,15 @@
+package com.internationalization;
+
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class NumberFormatForItaly {
+
+	public static void main(String[] args) {
+		
+		double d=123456.789 ;
+		NumberFormat nf=NumberFormat.getInstance(Locale.ITALY);
+		
+		System.out.println("ITALY FORM IS :::"+nf.format(d));
+	}
+}
